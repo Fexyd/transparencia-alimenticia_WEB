@@ -21,7 +21,7 @@ export default function Disease({
   return (
     <div className={styles.disease}>
       <DiseaseCard
-        iconType={DiseasesType.Obesity}
+        iconType={iconType}
         alt={alt}
         name={name}
         description={description}

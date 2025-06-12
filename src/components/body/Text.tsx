@@ -7,7 +7,7 @@ interface Props {
   size?: number;
 }
 
-export default function Text({ children, rotation = 0, size }: Props) {
+export default function Text({ children, size }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [containerHeight, setContainerHeight] = useState(0);
 
