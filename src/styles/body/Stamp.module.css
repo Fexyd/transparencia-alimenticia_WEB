@@ -1,0 +1,43 @@
+.card {
+  width: 100%;
+  max-width: 4.5rem; /* Tamaño base, pequeño para pantallas chicas */
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.name,
+.description {
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 0.2rem 0;
+}
+
+.card:hover > .image {
+  transform: rotate(5deg) scale(1.05);
+}
+
+@media (min-width: 375px) {
+  .card {
+    max-width: 5.5rem; /* Más grande para pantallas amplias */
+  }
+
+  .name,
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 441px) {
+  .card {
+    max-width: 7.5rem; /* Más grande para pantallas amplias */
+  }
+
+  .name,
+  .description {
+    font-size: 0.9rem;
+  }
+}

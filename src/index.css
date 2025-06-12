@@ -4,11 +4,22 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #111;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --color-main: #f8fff8;
+  --color-main-dark: #111;
+  --color-notebook: #d59c6a;
+  --color-stamps: #353c3f;
+  --color-stamps-lines: #001238;
+  --color-card: #d59c6a;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
 }

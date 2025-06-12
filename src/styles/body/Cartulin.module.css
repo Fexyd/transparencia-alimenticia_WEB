@@ -1,0 +1,77 @@
+.textSection {
+  position: relative;
+  color: var(--color-main-dark);
+  background-color: var(--color-main);
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.text {
+  width: auto;
+  align-self: center;
+  padding: 2.5rem 5rem;
+  padding-top: 1rem;
+}
+
+.tapeWrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 2rem;
+}
+
+.tape1 {
+  transform: rotate(2deg);
+  width: 4rem;
+  height: 4rem;
+  background-color: #ffe893aa;
+  position: absolute;
+  top: -100%;
+  left: 0.8rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  clip-path: polygon(
+    21% 1%,
+    16% 99%,
+    39% 92%,
+    57% 100%,
+    79% 100%,
+    78% 1%,
+    57% 9%,
+    40% 0%,
+    30% 13%
+  );
+}
+
+.tape2 {
+  transform: rotate(-2deg);
+  width: 4rem;
+  height: 4rem;
+  background-color: #ffe893aa;
+  position: absolute;
+  top: -100%;
+  right: 0.8rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  clip-path: polygon(
+    15% 0%,
+    19% 100%,
+    34% 90%,
+    40% 96%,
+    49% 87%,
+    61% 100%,
+    82% 100%,
+    74% 40%,
+    78% 0%,
+    64% 13%,
+    49% 1%,
+    42% 10%,
+    37% 5%,
+    32% 12%
+  );
+}

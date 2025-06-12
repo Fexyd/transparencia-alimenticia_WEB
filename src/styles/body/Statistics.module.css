@@ -1,0 +1,35 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #2f4f4f;
+  color: white;
+}
+
+.rowHeader {
+  background-color: #556b2f;
+  color: white;
+  text-align: left;
+}
+
+.colHeader {
+  background-color: #4682b4;
+}
+
+.cell {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover .cell {
+  background-color: #d3d3d3;
+}

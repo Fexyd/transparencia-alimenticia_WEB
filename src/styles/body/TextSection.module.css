@@ -1,0 +1,48 @@
+.textSection {
+  position: relative;
+  color: var(--color-main-dark);
+  background-color: var(--color-main);
+  font-weight: 600;
+  text-align: center;
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.text {
+  width: auto;
+  align-self: center;
+  padding: 2.5rem;
+}
+
+.notebookLines {
+  display: grid;
+  width: 35rem;
+}
+
+.holeWrapper {
+  position: relative;
+  height: 100%;
+}
+
+.line {
+  position: absolute;
+  width: 0.4rem;
+  height: 100%; /* o 1px para más sutil */
+  background-color: var(--color-notebook);
+  left: 12.5%;
+  bottom: 0;
+}
+
+.hole {
+  position: absolute;
+  --size: 2rem;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  background-color: var(--color-notebook);
+  left: 10%;
+  top: 10%;
+  margin: 0.6rem auto;
+}

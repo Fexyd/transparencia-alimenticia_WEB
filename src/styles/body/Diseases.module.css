@@ -1,0 +1,44 @@
+.diseaseCard {
+  width: 10rem;
+  background-color: var(--color-card);
+  border-radius: 2.5rem;
+  align-self: center;
+}
+
+.diseaseCard_image {
+  min-width: 1rem;
+  width: 100%;
+  max-width: 10rem;
+}
+
+.diseaseCard_text,
+.diseaseCard_name {
+  color: var(--color-main);
+}
+
+.diseaseCard_text {
+  padding-bottom: 1.5rem;
+  max-width: 20rem; /* Limitar ancho para evitar líneas muy largas */
+  margin: 0 auto; /* Centrar el texto dentro del card */
+  word-break: break-word; /* Que no se desborde por palabras largas */
+  line-height: 1.5;
+  text-align: center; /* Para que se vea balanceado */
+  color: var(--color-main);
+}
+
+.disease {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.diseaseText {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  max-width: 25rem; /* Un poco más ancho que el otro, según contexto */
+  word-break: break-word;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--color-main-dark);
+}

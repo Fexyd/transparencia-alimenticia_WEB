@@ -1,0 +1,24 @@
+.HeroImage {
+  color: var(--color-main-dark);
+  background-image: url("../../assets/Header/vecteezy_ingredients-for-healthy-foods-selection-on-white-wooden_2272481.jpg");
+  text-align: center;
+  height: 100vh;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: 0;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  will-change: background-position;
+}
+
+.text {
+  font-size: 1.25rem;
+}
+
+.title {
+  font-size: 3rem;
+}
