@@ -35,14 +35,14 @@ export default function Prevention() {
             iconType={DiseasesType.Obesity}
             alt="Obesidad"
             name="Obesidad"
-            description="Acumulación excesiva de grasa en el cuerpo."
+            description="Exceso de grasa"
           >
             Una dieta rica en productos con exceso de calorías y azúcares puede
             derivar en obesidad. Evitar productos con sellos de exceso ayuda a
             mantener un peso saludable.
           </Disease>
           <Disease
-            iconType={DiseasesType.Obesity}
+            iconType={DiseasesType.Diabetes}
             alt="Diabetes tipo 2"
             name="Diabetes tipo 2"
             description="Enfermedad metabólica que afecta el uso de glucosa."
@@ -52,7 +52,7 @@ export default function Prevention() {
             reducir su consumo diario.
           </Disease>
           <Disease
-            iconType={DiseasesType.Obesity}
+            iconType={DiseasesType.Hipertension}
             alt="Hipertensión"
             name="Hipertensión"
             description="Presión arterial elevada de forma crónica."
@@ -62,7 +62,7 @@ export default function Prevention() {
             contenido de sal y evitarlos.
           </Disease>
           <Disease
-            iconType={DiseasesType.Obesity}
+            iconType={DiseasesType.Heart}
             alt="Enfermedades del corazón"
             name="Cardiopatías"
             description="Afecciones que afectan al corazón y vasos sanguíneos."

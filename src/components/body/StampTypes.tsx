@@ -1,7 +1,7 @@
 import Cartulin from "../body/Cartulin";
 import styles from "../../styles/body/StampTypes.module.css";
 import Stamp from "./Stamp";
-import { stamps } from "../assetsImport/stamps";
+import { StampsType } from "../assetsImport/stamps";
 import Tittle from "./Tittle";
 
 export default function StampTypes() {
@@ -15,32 +15,32 @@ export default function StampTypes() {
         <Tittle
           color="var(--color-main-dark)"
           tittle="algunos sellos son... "
-        ></Tittle>
+        />
       </Cartulin>
 
       <div className={styles.stampWrapper}>
         <div className={styles.line1}></div>
         <div className={styles.line2}></div>
         <Stamp
-          iconHREF={stamps.Stamp1}
+          iconHREF={StampsType.Stamp1}
           name="Exceso Calorías"
           description="Muchas calorías por porción."
-        ></Stamp>
+        />
         <Stamp
-          iconHREF={stamps.Stamp1}
+          iconHREF={StampsType.Stamp2}
           name="Exceso Azúcares"
           description="Azúcar en exceso añadido."
-        ></Stamp>
+        />
         <Stamp
-          iconHREF={stamps.Stamp1}
+          iconHREF={StampsType.Stamp3}
           name="Exceso Grasas Saturadas"
           description="Altas grasas saturadas."
-        ></Stamp>
+        />
         <Stamp
-          iconHREF={stamps.Stamp1}
+          iconHREF={StampsType.Stamp4}
           name="Exceso Sodio"
           description="Sodio elevado en producto."
-        ></Stamp>
+        />
       </div>
     </div>
   );
